@@ -1,0 +1,54 @@
+.modal-window {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(97, 97, 97, 0.75);
+    z-index: 10000;
+
+    justify-content: center;
+    display: flex;
+    overflow: scroll;
+}
+
+.full-item {
+    /*width: 600px;*/
+    background: var(--bg-color);
+    position: absolute;
+    width: 350px;
+    /*height: 495px;*/
+    top: calc(50% - 250px);
+    left: calc(50% - 175px);
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+
+.full-item > img {
+    width: 100%;
+}
+
+.full-item-name {
+    font-size: 25px;
+    font-family: Montserrat;
+    /*margin-left: 10px;*/
+    margin-top: 20px;
+}
+
+.full-item-brand {
+    font-size: 15px;
+    font-family: Montserrat;
+
+}
+
+.full-item-price {
+    font-size: 15px;
+    font-family: Montserrat;
+
+}
+
+.full-item-desc {
+    font-size: 13px;
+    font-family: Thames;
+    margin: 20px 0;
+}

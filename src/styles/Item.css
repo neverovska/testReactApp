@@ -1,0 +1,29 @@
+.item {
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.35);
+    transition: transform 500ms ease;
+    font-family: Thames;
+    border-radius: 10px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+}
+.item-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 3;
+    padding: 20px;
+}
+.item-name, .item-price {
+    font-size: 15px;
+    font-family: Montserrat;
+}
+.item img {
+    width: 100%;
+    height: 160px;
+    border-radius: 10px 10px 0 0;
+}
+
+.item:hover {
+    transform: scale(1.05);
+}

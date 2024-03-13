@@ -1,0 +1,12 @@
+footer {
+    width: 100%;
+    height: 40px;
+    background: var(--heading-color);
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 3vw;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

@@ -1,0 +1,7 @@
+.item-list {
+    padding: 0 20vmin;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 15px;
+    align-items: center;
+}
